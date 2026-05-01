@@ -100,6 +100,12 @@ body {
         border-radius: 10px;
         padding: 20px 60px;
         cursor: pointer;
+        transition: opacity .3s ease;
+
+        &.disabled {
+            pointer-events: none;
+            opacity: 0.3;
+        }
     }
 
     &__wrapper {
@@ -126,6 +132,7 @@ body {
         padding: 50px 50px;
         color: var(--accent);
         text-align: center;
+        filter: drop-shadow(0px 0px 9px var(--accent));
 
         &:before {
             content: '';
@@ -154,5 +161,176 @@ body {
         &.red {
             --accent: #ff5757;
         }
+    }
+}
+
+.volume {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    gap: 10px;
+    top: 20px;
+    right: 20px;
+    opacity: 0.2;
+    transition: opacity .3s ease;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    input[type='checkbox'] {
+        display: block;
+        background: #fff;
+        width: 30px;
+        aspect-ratio: 1 / 1;
+        appearance: none;
+        -webkit-appearance: none;
+        cursor: pointer;
+        mask: url("./images/novolume.svg") no-repeat center center / contain;
+
+        &:checked {
+            mask: url("./images/volume.svg") no-repeat center center / contain;
+        }
+    }
+
+    span {
+        position: relative;
+        display: block;
+        height: 8px;
+        width: 150px;
+        border-radius: 100px;
+        background: #444;
+        --width: attr(data-value number);
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: #fff;
+            width: calc(100% * var(--width));
+            border-radius: 100px;
+            // box-shadow: -2px 0 8px 1px #fff;
+        }
+    }
+
+    input[type='range'] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        appearance: none;
+        -webkit-appearance: none;
+        background: transparent;
+        z-index: 1;
+
+        &::-webkit-slider-thumb {
+            appearance: none;
+            display: block;
+            width: 20px;
+            aspect-ratio: 1 / 1;
+            background: #fff;
+            border: 3px solid #666;
+            border-radius: 50%;
+        }
+    }
+}
+
+.modalwindow {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 66;
+    inset: 0;
+    background: #0008;
+    backdrop-filter: blur(8px);
+    --accent: #fff;
+    pointer-events: none;
+    opacity: 0;
+    transition: .3s ease;
+
+    &.show {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    &__wrapper {
+        position: relative;
+        background: #222;
+        padding: 64px;
+        border-radius: 15px;
+        width: calc(100% - 32px);
+        max-width: 720px;
+        --accent: #222;
+
+        &.crystal {
+            --accent: #85fff9;
+        }
+
+        &.red {
+            --accent: #ff5757;
+        }
+
+        &.orange {
+            --accent: #ffc964;
+        }
+
+        &.green {
+            --accent: #8eff80;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            inset: 20px;
+            border: 3px solid var(--accent);
+            border-radius: 10px;
+            pointer-events: none;
+            box-shadow: 0 0 8px var(--accent), inset 0 0 8px var(--accent);
+        }
+
+        h3 {
+            display: block;
+            color: #fff;
+            font-size: 32px;
+        }
+
+        p {
+            color: #fff;
+            margin: 20px 0;
+        }
+        h2 {
+            color: #fff;
+            margin: 30px 0 10px;
+            font-size: 20px;
+        }
+
+        span {
+            display: block;
+            color: #fff;
+            font-weight: 300;
+        }
+
+    }
+
+    &__close {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        color: var(--accent);
+        border: 2px solid var(--accent);
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 20px 60px;
+        cursor: pointer;
+        transition: opacity .3s ease;
+        margin-top: 50px;
+        text-shadow: 0 0 8px var(--accent);
+        box-shadow: 0 0 8px var(--accent), inset 0 0 8px var(--accent);
     }
 }

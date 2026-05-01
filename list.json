@@ -1,0 +1,218 @@
+[
+    {
+        "name": "Слабак и сопляк",
+        "desc": "Играть без брони и способностей всю игру",
+        "color": "green",
+        "game": "Valorant"
+    },
+    {
+        "name": "Один в поле - воин",
+        "desc": "Сделать эйс/рампагу за 1 игру",
+        "color": "orange",
+        "game": "Valorant, Dota"
+    },
+    {
+        "name": "Скрытый ассасин",
+        "desc": "Сделать 3 килла за игру",
+        "color": "red",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Плохая партия",
+        "desc": "Всю игру ныть, что команда не играет и из-за них не аппаешься",
+        "color": "green",
+        "game": "Valorant, Dota, Counter Strike"
+    },
+    {
+        "name": "Оу вы из Польши",
+        "desc": "Всю игру общаться на Польском языке",
+        "color": "green",
+        "game": "Valorant, Dota, Counter Strike"
+    },
+    {
+        "name": "Жадина",
+        "desc": "Играть все раунды без закупа оружия (скиллы и броню можно)",
+        "color": "orange",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Экономист",
+        "desc": "Играть без полной брони и без покупки скиллов (оружие и минимальную броню можно)",
+        "color": "green",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Чмоня",
+        "desc": "Собрать слабую сборку в абилити драфт и выиграть",
+        "color": "red",
+        "game": "Dota"
+    },
+    {
+        "name": "Кто мы ? Я один тут",
+        "desc": "Пикнуть Мипо и выиграть игру",
+        "color": "red",
+        "game": "Dota"
+    },
+    {
+        "name": "1 на 1",
+        "desc": "Победить 1 на 1",
+        "color": "orange",
+        "game": "Valorant, Dota"
+    },
+    {
+        "name": "Кто, если не я ?",
+        "desc": "Получить MVP игры",
+        "color": "orange",
+        "game": "Valorant, Dota"
+    },
+    {
+        "name": "Пункт выдачи заказов",
+        "desc": "Не используя курьера, забирать вещи",
+        "color": "orange",
+        "game": "Dota"
+    },
+    {
+        "name": "Пешая прогулка",
+        "desc": "Не использовать телепорт во время игры",
+        "color": "orange",
+        "game": "Dota"
+    },
+    {
+        "name": "Табун лошадей",
+        "desc": "Играть без шифта всю игру (можно убрать бинд в настройках)",
+        "color": "orange",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Рандомный герой",
+        "desc": "Играть на рандомном герое",
+        "color": "red",
+        "game": "Dota"
+    },
+    {
+        "name": "Куда стрелки показывают",
+        "desc": "Сделать ходьбу на стрелки и играть так до конца игры",
+        "color": "red",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Сапожник без сапог",
+        "desc": "Не покупать никакой ботинок всю игру",
+        "color": "green",
+        "game": "Dota"
+    },
+    {
+        "name": "Быстрая реакция",
+        "desc": "Поставить сенсу в 3 раза вышей текущей",
+        "color": "red",
+        "game": "Valorant, Dota, Counter Strike"
+    },
+    {
+        "name": "Немая сцена",
+        "desc": "Играть без звука всю игру",
+        "color": "red",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Левша",
+        "desc": "Играть левой игрой",
+        "color": "red",
+        "game": "Valorant, Dota, Counter Strike"
+    },
+    {
+        "name": "Содержанка",
+        "desc": "Играть с оружием за счёт команды (способности и броню можно)",
+        "color": "red",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Лесник",
+        "desc": "Играя на керри бить лес с нулевой",
+        "color": "orange",
+        "game": "Dota"
+    },
+    {
+        "name": "Бронированный",
+        "desc": "Всю игру покупать только оружие и скиллы",
+        "color": "orange",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Эгоистичный врач",
+        "desc": "Играя за хиллера не лечить команду",
+        "color": "red",
+        "game": "Valorant, Dota"
+    },
+    {
+        "name": "Перекрут",
+        "desc": "Крутишь рулетку ещё раз",
+        "color": "green",
+        "game": "Valorant, Dota, Counter Strike"
+    },
+    {
+        "name": "Ссаная нищенка",
+        "desc": "Играть с самой дешёвой бронёй и оружием (скиллы можно)",
+        "color": "orange",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Вейпер",
+        "desc": "Играть за смокера ",
+        "color": "green",
+        "game": "Valorant"
+    },
+    {
+        "name": "Прещепочник",
+        "desc": "Токсичить всю игру на команду будто прещепка на носу",
+        "color": "green",
+        "game": "Valorant, Dota, Counter Strike"
+    },
+    {
+        "name": "Тихая мышь",
+        "desc": "Всю игру двигаться на шифте",
+        "color": "orange",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "До максимума",
+        "desc": "Не перезаряжать оружие, пока не закончатся патроны в обойме",
+        "color": "orange",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Омерзительная восьмерка",
+        "desc": "Играть только с револьером/шерифом всю игру",
+        "color": "red",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Транжира",
+        "desc": "Покупать дорогое оружие, но играть с пистолетом",
+        "color": "orange",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Аниме тайм",
+        "desc": "Смотрим 2 серии аниме (на выбор стримера)",
+        "color": "crystal",
+        "game": "Аниме"
+    },
+    {
+        "name": "Новичок",
+        "desc": "Извиняться, если проиграли бой/раунд или умер в игре, спрашивать что делать/собирать",
+        "color": "green",
+        "game": "Valorant, Counter Strike, Dota"
+    },
+    {
+        "name": "Главный герой",
+        "desc": "Предлагать планы в начале раундов, колить команду и говорить, что молодцы (даже если плохо играют)",
+        "color": "green",
+        "game": "Valorant, Counter Strike"
+    },
+    {
+        "name": "Стримснайпер",
+        "desc": "Скинуть ссылку на твич в начале раунда",
+        "color": "green",
+        "game": "Valorant, Dota, Counter Strike"
+    }
+]

@@ -9,6 +9,17 @@
 </head>
 
 <body>
+    <div class="modalwindow">
+        <div class="modalwindow__wrapper">
+            <h3>Название задания</h3>
+            <p>Игра: Valorant</p>
+            <h2>
+                Описание задания:
+            </h2>
+            <span></span>
+            <a onclick="modal.hide();" class="modalwindow__close">Закрыть</a>
+        </div>
+    </div>
     <section class="poster">
         <div class="container">
             <img src="./images/logo.png" class="poster__logo" width="1589" height="716" alt="logo">
@@ -26,6 +37,12 @@
             </a>
         </div>
     </section>
+    <div class="volume">
+        <input type="checkbox" checked>
+        <span> 
+            <input type="range" min="0" max="1" step="0.01" value="1">
+        </span>
+    </div>
     <audio src="./music.mp3"></audio>
     <script src="./script.js"></script>
 </body>
