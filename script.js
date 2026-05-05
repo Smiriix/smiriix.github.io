@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 let arrowElem = document.querySelector(".rollette__arrow"),
                     x = +arrowElem.getBoundingClientRect().x + (+arrowElem.clientWidth / 2),
                     y = arrowElem.getBoundingClientRect().y + (+arrowElem.clientHeight / 2),
-                    elemCart = document.elementsFromPoint(960, 550).find(e => e.classList.contains("rollette__item")),
+                    elemCart = document.elementsFromPoint(x, y).find(e => e.classList.contains("rollette__item")),
                     dataItem = listObj[elemCart.dataset.id];
 
                 let modalWindow = document.querySelector(".modalwindow");
