@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector(`.volume span`).dataset.value = window.localStorage.getItem("volume") || 1;
 
     modal = new function () {
-        this.show = () => {
-            document.querySelector(".modalwindow").classList.add("show");
+        this.show = (selector) => {
+            document.querySelector(`.modalwindow${selector}`).classList.add("show");
         }
         this.hide = () => {
             if (document.querySelector(".modalwindow.show")) {
@@ -38,6 +38,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     itemList.innerHTML = `<p>${item.name}</p>`;
                     itemList.dataset.id = index;
                     listArr.push(itemList);
+
+                    document.querySelector(".modalwindow__list").innerHTML += `
+                        <div class="modalwindow__list_item ${item.color}">
+                            <span>${(index + 1)}.</span>
+                            <span>${item.name}</span>
+                            <span>${item.desc}</span>
+                        </div>
+                    `;
                 });
                 loadList();
             }
@@ -73,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 modalWindow.querySelector("span").innerHTML = dataItem.desc;
                 modalWindow.querySelector(".modalwindow__wrapper").className = `modalwindow__wrapper ${dataItem.color}`;
 
-                modal.show();
+                modal.show(`#prize`);
 
 
             }, 20000);
