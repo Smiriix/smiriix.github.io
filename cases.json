@@ -1,48 +1,13 @@
 [
     {
         "id": 1,
-        "type": 0,
-        "img": false,
-        "title": "untiled-title",
-        "name": "Какой-то кейс"
-    },
-    {
-        "id": 2,
-        "type": 0,
-        "img": false,
-        "title": "untiled-title-2",
-        "name": "Какой-то кейс 2"
-    },
-    {
-        "id": 3,
-        "type": 0,
-        "img": false,
-        "title": "untiled-title-3",
-        "name": "Какой-то кейс 3"
-    },
-    {
-        "id": 4,
-        "type": 0,
-        "img": false,
-        "title": "untiled-title-4",
-        "name": "Какой-то кейс 4"
-    },
-    {
-        "id": 5,
-        "type": 0,
-        "img": false,
-        "title": "untiled-title-5",
-        "name": "Какой-то кейс 5"
-    },
-    {
-        "id": 6,
-        "type": 2,
-        "img": false,
-        "title": "untiled-title-6",
-        "name": "Какой-то кейс 6",
-        "subtitle": "Корпоративный сайт на WordPress: вёрстка, посадка, базовая SEO-оптимизация",
-        "banner": "https://i.pinimg.com/474x/52/ae/92/52ae92904cb150de05548a57bf54a4ba.jpg?nii=t",
-        "url": "https://alfange.ru/",
+        "type": 1,
+        "img": "https://smiriix.github.io/pslandshaft-website/meta/screenshot.png",
+        "title": "pslandshaft",
+        "name": "Ландшафтные работы, проектирование и дизайн",
+        "subtitle": "Лендинг на WordPress: вёрстка, посадка, базовая SEO-оптимизация",
+        "banner": "https://smiriix.github.io/pslandshaft-website/meta/screenshot.png",
+        "url": "https://smiriix.github.io/pslandshaft-website/",
         "about": "<p>Клиент - Современная инжиниринговая Компания, обладающая высокими компетенциями и потенциалом, способная развиваться в интересах Заказчика. Создана командой профессионалов для решения любых поставленных задач. Аккумулирует в себе богатый предыдущий опыт руководителей и специалистов, а также наилучшие отечественные зарубежные практики.</p><p>Требовалось разработать новый сайт на WordPress, который позволил бы привлечь больше новых клиентов, а также имел высокие показатели GoogleSpeedPage, чтобы клиентам было комфортно находиться на сайте. Также требовалось сделать в админ-панель функционал, который позволил бы гибко управлять секциями на сайте.</p>",
         "solutions": [
             {
@@ -73,19 +38,5 @@
             "https://i.pinimg.com/474x/52/ae/92/52ae92904cb150de05548a57bf54a4ba.jpg?nii=t",
             "https://i.pinimg.com/474x/52/ae/92/52ae92904cb150de05548a57bf54a4ba.jpg?nii=t"
         ]
-    },
-    {
-        "id": 7,
-        "type": 2,
-        "img": "https://i.pinimg.com/474x/52/ae/92/52ae92904cb150de05548a57bf54a4ba.jpg?nii=t",
-        "title": "untiled-title-7",
-        "name": "Какой-то кейс 7"
-    },
-    {
-        "id": 8,
-        "type": 1,
-        "img": "https://i.pinimg.com/474x/52/ae/92/52ae92904cb150de05548a57bf54a4ba.jpg?nii=t",
-        "title": "untiled-title-8",
-        "name": "Какой-то кейс 8"
     }
 ]
